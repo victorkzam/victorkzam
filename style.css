@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,700);
+
+body {
+	font-size: 10px;
+}
+
+header {
+	height: 59px;
+	border-bottom: 1px solid #eaeaea;
+	position: fixed;
+	width: 100%;
+	background: #ffffff;
+}
+
+.logo {
+	font: 100 4em Roboto;
+	margin-left: 5%;
+	margin-top: 0;
+}
+
+.victorTop {
+	position: absolute;
+	left: 50%;
+	margin-left: -50px;
+	z-index: 10;
+	margin-top: -60px;
+}
+
+.headerMenu {
+	margin-left: 70%;
+	margin-top: -45px;
+}
+
+.headerMenu li {
+	float: left;
+	list-style: none;
+}
+
+.headerMenu a {
+	margin-right: 10px;
+	list-style: none;
+	display: block;
+	font: 100 18px Roboto;
+	text-transform: uppercase;
+	padding: 0 15px;
+	border-right: 1px #000 solid;
+	text-decoration: none;
+	color: #000;
+}
+
+.headerMenu li:last-child a {
+	border-right: none;
+}
+
+.row {
+	width: 100%;
+	margin: 0;
+}
+
+.twentyfive {
+	width: 25%;
+	float: left;
+}
+
+.fifty {
+	width: 50%;
+	float: left;
+}
